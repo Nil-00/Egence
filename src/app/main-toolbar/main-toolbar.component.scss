@@ -1,0 +1,35 @@
+@import "../_colors.scss";
+
+#toolbar-container{
+    height: 50px;
+    display: flex;
+    background-color: $blue;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#search{
+    flex:20 1;
+    height: 80%;
+    max-width: 25%;
+    background-color: white;
+    align-self: center;
+}
+
+
+#toolbar-item--container{
+    position: absolute;
+    right: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    width: 20%;
+}
+.toolbar-item{
+    flex: 10 1
+    ;
+    max-width: 10%;
+    background-color: $red;
+}
